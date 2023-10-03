@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S1</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Test cases</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Admin&apos;s perspective</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C7</id>
+				<title>CRs- CR list filter bar in the top menu in Admin mode</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Downloaded and open MrBuggy7 desktop app.
+2. Logged in using Credentials provided on the website: &quot;http://mrbuggy.pl/mrbuggy7/&quot;.
+3. Admin account created and logged in onto it using credentials provided below:
+login: &quot;Buggy7&quot;, password: &quot;12345@&quot;.
+4. User is logged in onto the created Admin account using credentials provided above.
+5. Dashboard screen is visible.</preconds>
+										<steps_separated><step>
+<index>1</index><content>Click on the &quot;CRs list&quot; tab in the top menu.</content><expected>App opened a tab containing &quot;CR list&quot;.</expected></step>
+<step>
+<index>2</index><content>Check if the tab behaves in the correct manner.</content><expected>All fields mentioned in the specification are present, visible and you are able to put appropriate information in them.
+All buttons mentioned in the specification are present, visible and clickable.
+All elements are compliant with the specification.</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C8</id>
+				<title>Automatic archiving in Admin mode</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Downloaded and open MrBuggy7 desktop app.
+2. Loged in using Credentials provided on the website: &quot;http://mrbuggy.pl/mrbuggy7/&quot;.
+3. Admin account created and logged in onto it using credentials provided below:
+login: &quot;Buggy7&quot;, password: &quot;12345@&quot;.
+4. User is logged in onto the created Admin account using credentials provided above.
+5. Dashboard screen is visible.</preconds>
+										<steps_separated><step>
+<index>1</index><content>Click on the &quot;Automatic archiving&quot; tab in the top menu.</content><expected>Appropriate page loaded up.</expected></step>
+<step>
+<index>2</index><content>Inspect loaded page.</content><expected>Page contains:
+o Field &amp;lsquo;Time for Draw status (min.) [0 = off]&amp;rsquo; (integer &amp;amp;gt; 0)
+o Field &amp;lsquo;Time for Rejected status (min.) [0 = off]&amp;rsquo; (integer &amp;amp;gt; 0)
+o Field &amp;lsquo;Time for Received status (min.) [0 = off]&amp;rsquo; (integer &amp;amp;gt; 0)
+o Button &amp;lsquo;Save&amp;rsquo; &amp;ndash; saving changes
+o Button &amp;lsquo;Cancel&amp;rsquo; &amp;ndash; discarding changes
+All fields mentioned in the specification are present, visible and you are able to put appropriate information in them.
+All buttons mentioned in the specification are present, visible and clickable.
+All elements are compliant with the specification.</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Employee perspective</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C9</id>
+				<title>Top menu bar in Employee mode</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Downloaded and open MrBuggy7 desktop app.
+2. Logged in using Credentials provided on the website: &quot;http://mrbuggy.pl/mrbuggy7/&quot;.
+3. Admin account created and logged in onto it using credentials provided below:
+login: &quot;Buggy7&quot;, password: &quot;12345@&quot;.
+4. User is logged in onto the created Admin account using credentials provided above.
+5. Dashboard screen is visible.
+6. Created Employee account using credentials provided below:
+Username: &quot;Sally&quot;
+First name: &quot;Sally&quot;
+Last name: &quot;Brown&quot;
+Email: &quot;brown@brown.gp&quot;
+Phone number: &quot;123456789&quot;
+Unit: &quot;dz&quot;
+Status: &quot;Active&quot;
+Password: &quot;12345@&quot;
+7. All users are logged out so the login screen is visible.</preconds>
+										<steps_separated><step>
+<index>1</index><content>Log in using the credentials provided below:
+Username: &quot;Sally&quot;
+Password: &quot;12345@&quot;
+
+</content><expected>You&apos;re logged in as an employee and the Dashboard screen is visible.</expected></step>
+<step>
+<index>2</index><content>Inspect top menu bar and check if all tabs mentioned in the specification are present
+</content><expected>All tabs mentioned in the specification(&quot;Dashboard&quot;, &quot;CRs list&quot;, &quot;New CR&quot;, &quot;Profile&quot;, Log out&quot;) are present, visible and clickable.
+All elements are compliant with the specification.</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Provider&apos;s perspective</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C10</id>
+				<title>Profile view in provider&apos;s perspective</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Downloaded and open MrBuggy7 desktop app.
+2. Logged in using Credentials provided on the website: &quot;http://mrbuggy.pl/mrbuggy7/&quot;.
+3. Admin account created and logged in onto it using credentials provided below:
+login: &quot;Buggy7&quot;, password: &quot;12345@&quot;.
+4. User is logged in onto the created Admin account using credentials provided above.
+5. Dashboard screen is visible.
+6. Created Provider&apos;s account using credentials provided below:
+Username: &quot;Colby&quot;
+First name: &quot;Colby&quot;
+Last name: &quot;Brown&quot;
+Email: &quot;brown@brown.gp&quot;
+Phone number: &quot;987654321&quot;
+Provider: &quot;Adam&quot;
+Status: &quot;Active&quot;
+Password: &quot;12345@&quot;
+
+7. All users are logged out so the login screen is visible.</preconds>
+										<steps_separated><step>
+<index>1</index><content>Log in as an provider using credentials provided below:
+Username: &quot;Colby&quot;
+Password: &quot;12345@&quot;</content><expected>You&apos;re logged in as a provider and Dashboard screen is visible.</expected></step>
+<step>
+<index>2</index><content>Click on the Profile tab.</content><expected>The profile tab is opened and visible.</expected></step>
+<step>
+<index>3</index><content>Inspect the form in the Profile view.</content><expected>Inspect if all fields required in the specification are present, visible and you are able to put appropriate information in them.
+All buttons mentioned in the specification are present, visible and clickable.
+All elements are compliant with the specification.
+User data is editable.
+Page contains:
+Fields:
+Username
+First name
+Last name
+E-mail
+Phone number
+Provider
+Password
+Confirm password
+Buttons:
+Save
+Cancel
+
+</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+</suite>

@@ -1,0 +1,104 @@
+"ID","Title","Automation Type","Created By","Created On","Estimate","Expected Result","Forecast","Goals","Mission","Preconditions","Priority","References","Section","Section Depth","Section Description","Section Hierarchy","Steps","Steps","Steps (Additional Info)","Steps (Expected Result)","Steps (References)","Steps (Shared step ID)","Steps (Step)","Suite","Suite ID","Template","Type","Updated By","Updated On"
+"C7","CRs- CR list filter bar in the top menu in Admin mode"," None","Mateusz Ceniuk","9/28/2023 10:37 AM","","","","","","1. Downloaded and open MrBuggy7 desktop app.
+2. Logged in using Credentials provided on the website: """"http://mrbuggy.pl/mrbuggy7/"""".
+3. Admin account created and logged in onto it using credentials provided below:
+login: """"Buggy7"""", password: """"12345@"""".
+4. User is logged in onto the created Admin account using credentials provided above.
+5. Dashboard screen is visible.","Medium","","Admin's perspective","1","","Test cases > Admin's perspective","","1. Click on the """"CRs list"""" tab in the top menu.
+Expected Result:
+App opened a tab containing """"CR list"""".2. Check if the tab behaves in the correct manner.
+Expected Result:
+All fields mentioned in the specification are present, visible and you are able to put appropriate information in them.
+All buttons mentioned in the specification are present, visible and clickable.
+All elements are compliant with the specification.","","App opened a tab containing ""CR list"".","","","Click on the ""CRs list"" tab in the top menu.","Master","S1","Test Case (Steps)","Functional","Mateusz Ceniuk","9/28/2023 12:40 PM"
+"C8","Automatic archiving in Admin mode"," None","Mateusz Ceniuk","9/28/2023 12:32 PM","","","","","","1. Downloaded and open MrBuggy7 desktop app.
+2. Loged in using Credentials provided on the website: """"http://mrbuggy.pl/mrbuggy7/"""".
+3. Admin account created and logged in onto it using credentials provided below:
+login: """"Buggy7"""", password: """"12345@"""".
+4. User is logged in onto the created Admin account using credentials provided above.
+5. Dashboard screen is visible.","Medium","","Admin's perspective","1","","Test cases > Admin's perspective","","1. Click on the """"Automatic archiving"""" tab in the top menu.
+Expected Result:
+Appropriate page loaded up.2. Inspect loaded page.
+Expected Result:
+Page contains:
+o Field &lsquo;Time for Draw status (min.) [0 = off]&rsquo; (integer &amp;gt; 0)
+o Field &lsquo;Time for Rejected status (min.) [0 = off]&rsquo; (integer &amp;gt; 0)
+o Field &lsquo;Time for Received status (min.) [0 = off]&rsquo; (integer &amp;gt; 0)
+o Button &lsquo;Save&rsquo; &ndash; saving changes
+o Button &lsquo;Cancel&rsquo; &ndash; discarding changes
+All fields mentioned in the specification are present, visible and you are able to put appropriate information in them.
+All buttons mentioned in the specification are present, visible and clickable.
+All elements are compliant with the specification.","","Appropriate page loaded up.","","","Click on the ""Automatic archiving"" tab in the top menu.","Master","S1","Test Case (Steps)","Functional","Mateusz Ceniuk","9/28/2023 12:38 PM"
+"C9","Top menu bar in Employee mode"," None","Mateusz Ceniuk","9/28/2023 12:39 PM","","","","","","1. Downloaded and open MrBuggy7 desktop app.
+2. Logged in using Credentials provided on the website: """"http://mrbuggy.pl/mrbuggy7/"""".
+3. Admin account created and logged in onto it using credentials provided below:
+login: """"Buggy7"""", password: """"12345@"""".
+4. User is logged in onto the created Admin account using credentials provided above.
+5. Dashboard screen is visible.
+6. Created Employee account using credentials provided below:
+Username: """"Sally""""
+First name: """"Sally""""
+Last name: """"Brown""""
+Email: """"brown@brown.gp""""
+Phone number: """"123456789""""
+Unit: """"dz""""
+Status: """"Active""""
+Password: """"12345@""""
+7. All users are logged out so the login screen is visible.","Medium","","Employee perspective","1","","Test cases > Employee perspective","","1. Log in using the credentials provided below:
+Username: """"Sally""""
+Password: """"12345@""""
+
+
+Expected Result:
+You're logged in as an employee and the Dashboard screen is visible.2. Inspect top menu bar and check if all tabs mentioned in the specification are present
+
+Expected Result:
+All tabs mentioned in the specification(""""Dashboard"""", """"CRs list"""", """"New CR"""", """"Profile"""", Log out"""") are present, visible and clickable.
+All elements are compliant with the specification.","","You're logged in as an employee and the Dashboard screen is visible.","","","Log in using the credentials provided below:
+Username: ""Sally""
+Password: ""12345@""
+
+","Master","S1","Test Case (Steps)","Functional","Mateusz Ceniuk","9/28/2023 1:09 PM"
+"C10","Profile view in provider's perspective"," None","Mateusz Ceniuk","9/28/2023 1:04 PM","","","","","","1. Downloaded and open MrBuggy7 desktop app.
+2. Logged in using Credentials provided on the website: """"http://mrbuggy.pl/mrbuggy7/"""".
+3. Admin account created and logged in onto it using credentials provided below:
+login: """"Buggy7"""", password: """"12345@"""".
+4. User is logged in onto the created Admin account using credentials provided above.
+5. Dashboard screen is visible.
+6. Created Provider's account using credentials provided below:
+Username: """"Colby""""
+First name: """"Colby""""
+Last name: """"Brown""""
+Email: """"brown@brown.gp""""
+Phone number: """"987654321""""
+Provider: """"Adam""""
+Status: """"Active""""
+Password: """"12345@""""
+
+7. All users are logged out so the login screen is visible.","Medium","","Provider's perspective","1","","Test cases > Provider's perspective","","1. Log in as an provider using credentials provided below:
+Username: """"Colby""""
+Password: """"12345@""""
+Expected Result:
+You're logged in as a provider and Dashboard screen is visible.2. Click on the Profile tab.
+Expected Result:
+The profile tab is opened and visible.3. Inspect the form in the Profile view.
+Expected Result:
+Inspect if all fields required in the specification are present, visible and you are able to put appropriate information in them.
+All buttons mentioned in the specification are present, visible and clickable.
+All elements are compliant with the specification.
+User data is editable.
+Page contains:
+Fields:
+Username
+First name
+Last name
+E-mail
+Phone number
+Provider
+Password
+Confirm password
+Buttons:
+Save
+Cancel","","You're logged in as a provider and Dashboard screen is visible.","","","Log in as an provider using credentials provided below:
+Username: ""Colby""
+Password: ""12345@""","Master","S1","Test Case (Steps)","Functional","Mateusz Ceniuk","9/28/2023 1:22 PM"

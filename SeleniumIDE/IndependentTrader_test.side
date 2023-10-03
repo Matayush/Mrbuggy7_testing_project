@@ -1,0 +1,254 @@
+{
+  "id": "e10ab089-e113-4f87-b973-29fbe9a93764",
+  "version": "2.0",
+  "name": "IndependentTrader_test",
+  "url": "https://independenttrader.pl/",
+  "tests": [{
+    "id": "2ed43c6f-ffd7-411d-b807-2d029fc7f8b9",
+    "name": "Correct credentials",
+    "commands": [{
+      "id": "f893706f-5b3a-4972-b59d-531779e6a050",
+      "comment": "",
+      "command": "open",
+      "target": "https://independenttrader.pl/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8f254cd-eb7d-4947-92b3-c63b328bfe82",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7725b11-da1f-476b-bd4c-adc0e6869459",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-unlock",
+      "targets": [
+        ["css=.icon-unlock", "css:finder"],
+        ["xpath=//div[@id='loginArea']/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ee5fd4b-7c86-42e2-a3ed-b35a0867e838",
+      "comment": "",
+      "command": "type",
+      "target": "name=_username",
+      "targets": [
+        ["name=_username", "name"],
+        ["css=.row:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='_username']", "xpath:attributes"],
+        ["xpath=//section[@id='content']/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "mceniuk@hotmail.com"
+    }, {
+      "id": "32e745e9-e441-4881-876d-603bfd77c610",
+      "comment": "",
+      "command": "type",
+      "target": "name=_password",
+      "targets": [
+        ["name=_password", "name"],
+        ["css=.row:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='_password']", "xpath:attributes"],
+        ["xpath=//section[@id='content']/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "qwerty@"
+    }, {
+      "id": "68c595ba-8733-490d-8797-da95588a4d00",
+      "comment": "",
+      "command": "click",
+      "target": "name=_username",
+      "targets": [
+        ["name=_username", "name"],
+        ["css=.row:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='_username']", "xpath:attributes"],
+        ["xpath=//section[@id='content']/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22d9de8a-b6d2-43a2-9d24-8cacc118bb33",
+      "comment": "",
+      "command": "click",
+      "target": "id=content",
+      "targets": [
+        ["id=content", "id"],
+        ["css=#content", "css:finder"],
+        ["xpath=//section[@id='content']", "xpath:attributes"],
+        ["xpath=//section[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08d08945-ec56-4fec-83bb-6bfe799b86a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.buttonFace",
+      "targets": [
+        ["css=.buttonFace", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='content']/div/div/div/div[2]/form/div[3]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "917a29a0-44d2-4e2f-bf55-571dae0d4f88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-unlock",
+      "targets": [
+        ["css=.icon-unlock", "css:finder"],
+        ["xpath=//div[@id='loginArea']/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27c2df10-1d1d-4a0b-b56e-00d51dfc2216",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "21104a7b-89ba-4bad-8cd9-df2227295837",
+    "name": "Incorrect_Credentials",
+    "commands": [{
+      "id": "13c79f30-098f-44dc-a074-4cadf35462d2",
+      "comment": "",
+      "command": "open",
+      "target": "https://independenttrader.pl/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "979abd18-6768-4a5a-8ec7-d6a25873ad7c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48918cb6-446a-4975-b8c7-cdeaa8a1286c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-unlock",
+      "targets": [
+        ["css=.icon-unlock", "css:finder"],
+        ["xpath=//div[@id='loginArea']/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "637e3cbf-1d51-42e1-a1ee-f1e68b2588c0",
+      "comment": "",
+      "command": "type",
+      "target": "name=_username",
+      "targets": [
+        ["name=_username", "name"],
+        ["css=.row:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='_username']", "xpath:attributes"],
+        ["xpath=//section[@id='content']/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "mceniuk@hotmail.com"
+    }, {
+      "id": "3c385372-cad1-4a98-ac96-1bcfd27f60f5",
+      "comment": "",
+      "command": "type",
+      "target": "name=_password",
+      "targets": [
+        ["name=_password", "name"],
+        ["css=.row:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='_password']", "xpath:attributes"],
+        ["xpath=//section[@id='content']/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "qwerty@"
+    }, {
+      "id": "029b9285-f263-4667-933b-177878dedc79",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(1) > .col-md-8",
+      "targets": [
+        ["css=.row:nth-child(1) > .col-md-8", "css:finder"],
+        ["xpath=//section[@id='content']/div/div/div", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "578262aa-6c5a-47c9-9571-155a0a019612",
+      "comment": "",
+      "command": "type",
+      "target": "name=_username",
+      "targets": [
+        ["name=_username", "name"],
+        ["css=.row:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='_username']", "xpath:attributes"],
+        ["xpath=//section[@id='content']/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "mceniuk@badcredentials.com"
+    }, {
+      "id": "83c1cb2e-a7bf-449d-903d-a8423f463126",
+      "comment": "",
+      "command": "type",
+      "target": "name=_password",
+      "targets": [
+        ["name=_password", "name"],
+        ["css=.row:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='_password']", "xpath:attributes"],
+        ["xpath=//section[@id='content']/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "badcredentials"
+    }, {
+      "id": "1fc5786c-5061-4a0b-9b4c-3621ea621a9c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.buttonFace",
+      "targets": [
+        ["css=.buttonFace", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='content']/div/div/div/div[2]/form/div[3]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "531032cb-b685-4c0e-a6d3-648d63f886dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-8 > .col-md-6",
+      "targets": [
+        ["css=.col-md-8 > .col-md-6", "css:finder"],
+        ["xpath=//section[@id='content']/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09777388-1cf6-4f0a-8a89-21764507ee53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.buttonFace",
+      "targets": [
+        ["css=.buttonFace", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='content']/div/div/div/div[2]/form/div[3]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ebc2ebc0-d034-4ef2-a7d8-d9d4d7ba84f7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2ed43c6f-ffd7-411d-b807-2d029fc7f8b9"]
+  }],
+  "urls": ["https://independenttrader.pl/"],
+  "plugins": []
+}
