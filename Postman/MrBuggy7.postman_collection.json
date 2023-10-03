@@ -23,52 +23,7 @@
 					},
 					{
 						"key": "Authorization",
-						"value": "{{APIKeys}}",
-						"description": "Admin",
-						"type": "text"
-					},
-					{
-						"key": "Content-Type",
-						"value": "application/x-www-form-urlencoded",
-						"type": "text"
-					}
-				],
-				"body": {
-					"mode": "urlencoded",
-					"urlencoded": []
-				},
-				"url": {
-					"raw": "http://localhost:8080/user/profile",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"user",
-						"profile"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "GetUnitList",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true,
-				"disabledSystemHeaders": {}
-			},
-			"request": {
-				"method": "GET",
-				"header": [
-					{
-						"key": "Accept",
-						"value": "application/json",
-						"type": "text"
-					},
-					{
-						"key": "Authorization",
-						"value": "{{APIKeys}}",
+						"value": "Rmlyc3RhZG1pbg==:UGFzc3cwcmRA",
 						"description": "Admin",
 						"type": "text"
 					},
@@ -113,7 +68,7 @@
 					},
 					{
 						"key": "Authorization",
-						"value": "{{APIKeys}}",
+						"value": "Rmlyc3RhZG1pbg==:UGFzc3cwcmRA",
 						"description": "Admin",
 						"type": "text"
 					},
@@ -137,13 +92,6 @@
 					"path": [
 						"user",
 						"1"
-					],
-					"query": [
-						{
-							"key": "",
-							"value": "",
-							"disabled": true
-						}
 					]
 				}
 			},
@@ -165,7 +113,7 @@
 					},
 					{
 						"key": "Authorization",
-						"value": "{{APIKeys}}",
+						"value": "Rmlyc3RhZG1pbg==:UGFzc3cwcmRA",
 						"description": "Admin",
 						"type": "text"
 					},
@@ -180,7 +128,7 @@
 					"urlencoded": []
 				},
 				"url": {
-					"raw": "http://localhost:8080/user/",
+					"raw": "http://localhost:8080/user/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -188,7 +136,7 @@
 					"port": "8080",
 					"path": [
 						"user",
-						""
+						"1"
 					]
 				}
 			},
@@ -209,7 +157,7 @@
 					},
 					{
 						"key": "Authorization",
-						"value": "QnVnZ3k3:MTIzNDVA",
+						"value": "Rmlyc3RhZG1pbg==:UGFzc3cwcmRA",
 						"description": "Admin",
 						"type": "text"
 					},
@@ -221,47 +169,10 @@
 				],
 				"body": {
 					"mode": "urlencoded",
-					"urlencoded": [
-						{
-							"key": "first_name",
-							"value": "Milena",
-							"type": "text"
-						},
-						{
-							"key": "username",
-							"value": "Milena",
-							"type": "text"
-						},
-						{
-							"key": "last_name",
-							"value": "Milena",
-							"type": "text"
-						},
-						{
-							"key": "email",
-							"value": "milena@gmail.com",
-							"type": "text"
-						},
-						{
-							"key": "phone_number",
-							"value": "123456789",
-							"type": "text"
-						},
-						{
-							"key": "password",
-							"value": "Milena1@",
-							"type": "text"
-						},
-						{
-							"key": "",
-							"value": "",
-							"type": "text",
-							"disabled": true
-						}
-					]
+					"urlencoded": []
 				},
 				"url": {
-					"raw": "http://localhost:8080/user/admin",
+					"raw": "http://localhost:8080/user/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -269,179 +180,11 @@
 					"port": "8080",
 					"path": [
 						"user",
-						"admin"
+						"1"
 					]
 				}
 			},
 			"response": []
-		},
-		{
-			"name": "ChangeUserData",
-			"protocolProfileBehavior": {
-				"disabledSystemHeaders": {}
-			},
-			"request": {
-				"method": "PUT",
-				"header": [
-					{
-						"key": "Accept",
-						"value": "application/json",
-						"type": "text"
-					},
-					{
-						"key": "Authorization",
-						"value": "QnVnZ3k3:MTIzNDVA",
-						"description": "Admin",
-						"type": "text"
-					},
-					{
-						"key": "Content-Type",
-						"value": "application/x-www-form-urlencoded",
-						"type": "text"
-					}
-				],
-				"body": {
-					"mode": "urlencoded",
-					"urlencoded": [
-						{
-							"key": "first_name",
-							"value": "Milena",
-							"type": "text"
-						},
-						{
-							"key": "username",
-							"value": "Milena",
-							"type": "text"
-						},
-						{
-							"key": "last_name",
-							"value": "Milena",
-							"type": "text"
-						},
-						{
-							"key": "email",
-							"value": "milena@gmail.com",
-							"type": "text"
-						},
-						{
-							"key": "phone_number",
-							"value": "123456789",
-							"type": "text"
-						},
-						{
-							"key": "password",
-							"value": "Milena1@",
-							"type": "text"
-						},
-						{
-							"key": "",
-							"value": "",
-							"type": "text",
-							"disabled": true
-						}
-					]
-				},
-				"url": {
-					"raw": "http://localhost:8080/user/2",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"user",
-						"2"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "DeleteUser",
-			"protocolProfileBehavior": {
-				"disabledSystemHeaders": {}
-			},
-			"request": {
-				"method": "PUT",
-				"header": [
-					{
-						"key": "Accept",
-						"value": "application/json",
-						"type": "text"
-					},
-					{
-						"key": "Authorization",
-						"value": "QnVnZ3k3:MTIzNDVA",
-						"description": "Admin",
-						"type": "text"
-					},
-					{
-						"key": "Content-Type",
-						"value": "application/x-www-form-urlencoded",
-						"type": "text"
-					}
-				],
-				"body": {
-					"mode": "urlencoded",
-					"urlencoded": [
-						{
-							"key": "first_name",
-							"value": "Milena",
-							"type": "text"
-						},
-						{
-							"key": "username",
-							"value": "Milena",
-							"type": "text"
-						},
-						{
-							"key": "last_name",
-							"value": "Milena",
-							"type": "text"
-						},
-						{
-							"key": "email",
-							"value": "milena@gmail.com",
-							"type": "text"
-						},
-						{
-							"key": "phone_number",
-							"value": "123456789",
-							"type": "text"
-						},
-						{
-							"key": "password",
-							"value": "Milena1@",
-							"type": "text"
-						},
-						{
-							"key": "",
-							"value": "",
-							"type": "text",
-							"disabled": true
-						}
-					]
-				},
-				"url": {
-					"raw": "http://localhost:8080/user/2",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"user",
-						"2"
-					]
-				}
-			},
-			"response": []
-		}
-	],
-	"variable": [
-		{
-			"key": "APIKeys",
-			"value": "QnVnZ3k3:MTIzNDVA"
 		}
 	]
 }
