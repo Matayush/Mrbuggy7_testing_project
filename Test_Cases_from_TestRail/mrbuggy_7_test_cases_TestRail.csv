@@ -1,5 +1,5 @@
 "ID","Title","Automation Type","Created By","Created On","Estimate","Expected Result","Forecast","Goals","Mission","Preconditions","Priority","References","Section","Section Depth","Section Description","Section Hierarchy","Steps","Steps","Steps (Additional Info)","Steps (Expected Result)","Steps (References)","Steps (Shared step ID)","Steps (Step)","Suite","Suite ID","Template","Type","Updated By","Updated On"
-"C7","CRs- CR list filter bar in the top menu in Admin mode"," None","Mateusz Ceniuk","9/28/2023 10:37 AM","","","","","","1. Downloaded and open MrBuggy7 desktop app.
+"C7","CR list filter bar in the top menu in Admin mode"," None","Mateusz Ceniuk","9/28/2023 10:37 AM","","","","","","1. Downloaded and open MrBuggy7 desktop app.
 2. Logged in using Credentials provided on the website: """"http://mrbuggy.pl/mrbuggy7/"""".
 3. Admin account created and logged in onto it using credentials provided below:
 login: """"Buggy7"""", password: """"12345@"""".
@@ -10,7 +10,7 @@ App opened a tab containing """"CR list"""".2. Check if the tab behaves in the c
 Expected Result:
 All fields mentioned in the specification are present, visible and you are able to put appropriate information in them.
 All buttons mentioned in the specification are present, visible and clickable.
-All elements are compliant with the specification.","","App opened a tab containing ""CR list"".","","","Click on the ""CRs list"" tab in the top menu.","Master","S1","Test Case (Steps)","Functional","Mateusz Ceniuk","9/28/2023 12:40 PM"
+All elements are compliant with the specification.","","App opened a tab containing ""CR list"".","","","Click on the ""CRs list"" tab in the top menu.","Master","S1","Test Case (Steps)","Functional","Mateusz Ceniuk","9/28/2023 1:35 PM"
 "C8","Automatic archiving in Admin mode"," None","Mateusz Ceniuk","9/28/2023 12:32 PM","","","","","","1. Downloaded and open MrBuggy7 desktop app.
 2. Loged in using Credentials provided on the website: """"http://mrbuggy.pl/mrbuggy7/"""".
 3. Admin account created and logged in onto it using credentials provided below:
@@ -59,7 +59,7 @@ Username: ""Sally""
 Password: ""12345@""
 
 ","Master","S1","Test Case (Steps)","Functional","Mateusz Ceniuk","9/28/2023 1:09 PM"
-"C10","Profile view in provider's perspective"," None","Mateusz Ceniuk","9/28/2023 1:04 PM","","","","","","1. Downloaded and open MrBuggy7 desktop app.
+"C10","Profile view in provider's perspective"," None","Mateusz Ceniuk","9/28/2023 1:04 PM","","","530s","","","1. Downloaded and open MrBuggy7 desktop app.
 2. Logged in using Credentials provided on the website: """"http://mrbuggy.pl/mrbuggy7/"""".
 3. Admin account created and logged in onto it using credentials provided below:
 login: """"Buggy7"""", password: """"12345@"""".

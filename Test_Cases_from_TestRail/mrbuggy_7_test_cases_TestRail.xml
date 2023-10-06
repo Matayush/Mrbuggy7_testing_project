@@ -14,7 +14,7 @@
 						<cases>
 												<case>
 				<id>C7</id>
-				<title>CRs- CR list filter bar in the top menu in Admin mode</title>
+				<title>CR list filter bar in the top menu in Admin mode</title>
 												<template>Test Case (Steps)</template>
 																<type>Functional</type>
 																<priority>Medium</priority>
