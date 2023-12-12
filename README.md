@@ -1,5 +1,5 @@
 # Mrbuggy7_testing_project
-The Second Final Project was made mainly for the purpose of passing the final exam after the Software Tester course in SDA.
+The Second Final Project was made  to show new skills that I learned and for the purpose of passing the final exam after the Software Tester course in SDA.
 
 The project consists of:
 1. Presentation made for final exam containing brief examples of what  and how was done, some examples with screenshots highlighting main parts of the project.
